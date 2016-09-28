@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F90AFE221D9BBC550045B1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90AFE211D9BBC550045B1BF /* AppDelegate.swift */; };
+		F90AFE241D9BBC550045B1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90AFE231D9BBC550045B1BF /* ViewController.swift */; };
+		F90AFE271D9BBC550045B1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90AFE251D9BBC550045B1BF /* Main.storyboard */; };
+		F90AFE291D9BBC550045B1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90AFE281D9BBC550045B1BF /* Assets.xcassets */; };
+		F90AFE2C1D9BBC550045B1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90AFE2A1D9BBC550045B1BF /* LaunchScreen.storyboard */; };
+		F90AFE341D9BC1A10045B1BF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90AFE331D9BC1A10045B1BF /* HomeVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F90AFE1E1D9BBC550045B1BF /* SOTouchAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOTouchAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90AFE211D9BBC550045B1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F90AFE231D9BBC550045B1BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F90AFE261D9BBC550045B1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F90AFE281D9BBC550045B1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F90AFE2B1D9BBC550045B1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F90AFE2D1D9BBC550045B1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90AFE331D9BC1A10045B1BF /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F90AFE1B1D9BBC550045B1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F90AFE151D9BBC550045B1BF = {
+			isa = PBXGroup;
+			children = (
+				F90AFE201D9BBC550045B1BF /* SOTouchAuthentication */,
+				F90AFE1F1D9BBC550045B1BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F90AFE1F1D9BBC550045B1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F90AFE1E1D9BBC550045B1BF /* SOTouchAuthentication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F90AFE201D9BBC550045B1BF /* SOTouchAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				F90AFE211D9BBC550045B1BF /* AppDelegate.swift */,
+				F90AFE231D9BBC550045B1BF /* ViewController.swift */,
+				F90AFE331D9BC1A10045B1BF /* HomeVC.swift */,
+				F90AFE251D9BBC550045B1BF /* Main.storyboard */,
+				F90AFE281D9BBC550045B1BF /* Assets.xcassets */,
+				F90AFE2A1D9BBC550045B1BF /* LaunchScreen.storyboard */,
+				F90AFE2D1D9BBC550045B1BF /* Info.plist */,
+			);
+			path = SOTouchAuthentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F90AFE1D1D9BBC550045B1BF /* SOTouchAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90AFE301D9BBC550045B1BF /* Build configuration list for PBXNativeTarget "SOTouchAuthentication" */;
+			buildPhases = (
+				F90AFE1A1D9BBC550045B1BF /* Sources */,
+				F90AFE1B1D9BBC550045B1BF /* Frameworks */,
+				F90AFE1C1D9BBC550045B1BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOTouchAuthentication;
+			productName = SOTouchAuthentication;
+			productReference = F90AFE1E1D9BBC550045B1BF /* SOTouchAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F90AFE161D9BBC550045B1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myCompany;
+				TargetAttributes = {
+					F90AFE1D1D9BBC550045B1BF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F90AFE191D9BBC550045B1BF /* Build configuration list for PBXProject "SOTouchAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F90AFE151D9BBC550045B1BF;
+			productRefGroup = F90AFE1F1D9BBC550045B1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F90AFE1D1D9BBC550045B1BF /* SOTouchAuthentication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F90AFE1C1D9BBC550045B1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90AFE2C1D9BBC550045B1BF /* LaunchScreen.storyboard in Resources */,
+				F90AFE291D9BBC550045B1BF /* Assets.xcassets in Resources */,
+				F90AFE271D9BBC550045B1BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F90AFE1A1D9BBC550045B1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90AFE341D9BC1A10045B1BF /* HomeVC.swift in Sources */,
+				F90AFE241D9BBC550045B1BF /* ViewController.swift in Sources */,
+				F90AFE221D9BBC550045B1BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F90AFE251D9BBC550045B1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90AFE261D9BBC550045B1BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F90AFE2A1D9BBC550045B1BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90AFE2B1D9BBC550045B1BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F90AFE2E1D9BBC550045B1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danny Wheeler (2KTD7H927Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danny Wheeler (2KTD7H927Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "80203633-5bcb-44cd-8e94-abdf054f9951";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F90AFE2F1D9BBC550045B1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danny Wheeler (2KTD7H927Y)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danny Wheeler (2KTD7H927Y)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "80203633-5bcb-44cd-8e94-abdf054f9951";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90AFE311D9BBC550045B1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danny Wheeler (2KTD7H927Y)";
+				INFOPLIST_FILE = SOTouchAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extention.SOTouchAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "80203633-5bcb-44cd-8e94-abdf054f9951";
+			};
+			name = Debug;
+		};
+		F90AFE321D9BBC550045B1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Danny Wheeler (2KTD7H927Y)";
+				INFOPLIST_FILE = SOTouchAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.extention.SOTouchAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "80203633-5bcb-44cd-8e94-abdf054f9951";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F90AFE191D9BBC550045B1BF /* Build configuration list for PBXProject "SOTouchAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90AFE2E1D9BBC550045B1BF /* Debug */,
+				F90AFE2F1D9BBC550045B1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90AFE301D9BBC550045B1BF /* Build configuration list for PBXNativeTarget "SOTouchAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F90AFE311D9BBC550045B1BF /* Debug */,
+				F90AFE321D9BBC550045B1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F90AFE161D9BBC550045B1BF /* Project object */;
+}
